@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  padding: 15px;
+  width: 320px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff9800;
+}
+
+textarea#reviewsInput {
+  width: 100%;
+  min-height: 160px;
+  resize: vertical;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: #1e1e1e;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+#result {
+  text-align: left;
+  font-size: 14px;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+  background: rgba(255,255,255,0.03);
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.04);
+}

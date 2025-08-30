@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Review Analyzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>AI Review Analyzer</h2>
+    <textarea id="reviewsInput" placeholder="Paste product reviews here" rows="10" aria-label="Product reviews input"></textarea>
+    <div style="display:flex; gap:8px; justify-content:center; margin-bottom:10px;">
+      <button id="analyzeBtn">Analyze Reviews</button>
+      <button id="fetchBtn" title="Try to fetch reviews from the current page">Fetch from page</button>
+    </div>
+    <div id="result" role="status" aria-live="polite"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
