@@ -3,7 +3,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === "analyzeReviews") {
     (async () => {
       try {
-        const apiKey = "AIzaSyA495FTJWifjmSnUXTNKqiI0k9tMLT_a6E";
+        const apiKey = "YOUR_API_KEY";
         const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
         const payload = {
           contents: [
